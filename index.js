@@ -8,7 +8,7 @@ const dates = [
 ];
 
 // TODO: Buatlah fungsi createDate
-const createDate = (dates, num) => {
+const createDate = (date, num) => {
   if (num != null) {
     const resultDate = (Date.parse(dates[num])) / 1000;
     return resultDate.toString();
